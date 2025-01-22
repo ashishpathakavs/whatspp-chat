@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(196, 218, 237);
+}
+
+.chat-container {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.message-container {
+  flex: 1;
+
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.message-text {
+  max-width: 70%;
+  background-color: aliceblue;
+  padding: 8px;
+  border-radius: 4px;
+  word-wrap: break-word;
+}
+
+.msg-recived {
+  align-self: flex-end;
+}
+.msg-sent {
+  align-self: flex-start;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border-top: 1px solid black;
+}
+
+.input-box {
+  flex: 1;
+}
+
+.send-btn {
+  cursor: pointer;
+}
